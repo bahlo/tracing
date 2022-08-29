@@ -807,6 +807,7 @@
 //!    grouping together logs from the same spans during writing.
 //!  - [`tracing-loki`] provides a layer for shipping logs to [Grafana Loki].
 //!  - [`tracing-logfmt`] provides a layer that formats events and spans into the logfmt format.
+//!  - [`tracing-axiom`] provides a layer that reports traces to [Axiom].
 //!
 //! If you're the maintainer of a `tracing` ecosystem crate not listed above,
 //! please let us know! We'd love to add your project to the list!
@@ -845,6 +846,8 @@
 //! [`tracing-loki`]: https://crates.io/crates/tracing-loki
 //! [Grafana Loki]: https://grafana.com/oss/loki/
 //! [`tracing-logfmt`]: https://crates.io/crates/tracing-logfmt
+//! [`tracing-axiom`]: https://crates.io/crates/tracing-axiom
+//! [Axiom]: https://axiom.co
 //!
 //! <div class="example-wrap" style="display:inline-block">
 //! <pre class="ignore" style="white-space:normal;font:inherit;">
